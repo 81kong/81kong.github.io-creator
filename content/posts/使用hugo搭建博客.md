@@ -1,7 +1,8 @@
 ---
 title: "使用hugo搭建博客"
 date: 2020-01-31T13:29:23+08:00
-draft: true
+draft: false
+tags: ["hugo","blog"]
 ---
 Hugo是Go语言实现的一个博客生成器，世界上最快的博客生成器，最受欢迎的开源靜态站点生成器之一。Hugo和Hexo一样，是一种通用的网站框架。这类应用将 Markdown文件和主题一起编译成由 HTML、CSS、JavaScript组成的静态网页。 
 下面简单介绍一下如何使用hugo来搭建一个博客。 
@@ -133,8 +134,17 @@ Hugo 并没有提供自动发布到 GitHub Pages 的功能。需要将 public �
 3. cd public，将仓库复制到本地，将public推送到仓库81kong.github.io。  
 4. 通过settings即可找到预览网址。 
 
+# *知识链接*
+如何在博客中添加字数统计：
+先在自己主题的single.html的配置中搜索要放的位置,并在{{ end }}后面添加一下代码,比如我的主题对应的single.html路径为themes\ananke\layouts\_default\single.html，再添加如下代码：  
+
+```
+<span class="post-word-count">, {{ .WordCount }} words</span>
+```       
 
 
+
+·end·
 
 
 
@@ -142,4 +152,4 @@ Hugo 并没有提供自动发布到 GitHub Pages 的功能。需要将 public �
 1. https://gohugo.io/getting-started/quick-start/
 2. https://mogeko.me/2018/018/  
 
- 声明：版权归我所有，侵权必究。
+ 声明：转载请注明出处，侵权必究。
