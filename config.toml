@@ -1,4 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://81kong.github.io/"
 languageCode = "zh-Hans"
 title = "Rona's blog"
 theme = "ananke"
+hasCJKLanguage = true
+enableEmoji = true
