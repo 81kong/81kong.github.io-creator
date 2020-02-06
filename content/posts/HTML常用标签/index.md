@@ -241,7 +241,7 @@ target 属性指定在何处显示链接的资源。取值为标签（tab），�
       </button>
 ```
 
-![inputandbutton](input和button区别.png)
+![inputandbutton](static/../input和button区别.png)
 
 ## 2. [input 标签](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input)
 
