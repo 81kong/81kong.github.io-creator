@@ -182,16 +182,16 @@ target 属性指定在何处显示链接的资源。取值为标签（tab），�
 ```
 
 - 图片加载成功，打开开发者工具，打开 console 如下：
-  ![图片加载成功](static/../loadsuccess.png)
+  ![图片加载成功](loadsuccess.png)
 
 - 图片加载失败后显示文字“一只狗子”如下：
-  ![图片加载失败后显示文字一只狗子](static/../失败后显示一只狗子.png)
+  ![图片加载失败后显示文字一只狗子](失败后显示一只狗子.png)
 
 - 图片加载失败，打开开发者工具，打开 console 如下：
-  ![图片加载失败](static/../图片加载失败.png)
+  ![图片加载失败](图片加载失败.png)
 
 - 图片加载失败后，跳转到 404.png，挽回显示如下：
-  ![图片加载失败后挽回显示如下](static/../图片挽回.png)
+  ![图片加载失败后挽回显示如下](图片挽回.png)
 
 1. ### 响应式
 
@@ -241,7 +241,7 @@ target 属性指定在何处显示链接的资源。取值为标签（tab），�
       </button>
 ```
 
-![inputandbutton](static/../input和button区别.png)
+![inputandbutton](input和button区别.png)
 
 ## 2. [input 标签](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input)
 

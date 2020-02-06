@@ -5,18 +5,30 @@ draft: false
 tags: ["HTML", "front end", "hugo", "image"]
 ---
 
-1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，再建一个 md 文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只在 static 中。  
-结论，两种方法可行 AB：  
-**1.formxxx.png  
-2.y posts formyyy.png  
-6.y static/../formyyy.png  
-7.static/../c.png**  
-**A:建一个以文章名称命名的文件夹，里面放一个 index.md 文件，图片等文件就也放当前文章这个文件夹里面即可。  
-B:在 static/images 中加入图片，然后图片 src 写 static/../c.png 即可。**
+1 和 2 是在 posts 中建了一个文件夹“图片测试”，然后将图片加到文件夹里，**_再建一个且必须名为 index.md_**文件。 x 只在 posts 中有，y 在 posts 和 static/images/中,c 只在 static 中。
+
+# 最新结论：
+
+**必须要将图片放到 posts 里。若同时在 static 中有此图片，则有两种写法，否则，只能写第一种。**  
+**两种写法：  
+1.formxxx.png  
+6.y static/../formyyy.png**  
+第 7 种写法在本地网页预览可以，在 juruonan.xyz 不可以。
 
 ---
 
-测试结果如下：
+## ~~结论，两种方法可行 AB：~~
+
+**1.formxxx.png  
+2.y posts formyyy.png  
+6.y static/../formyyy.png  
+~~7.static/../c.png~~**  
+**A:建一个以文章名称命名的文件夹，里面放一个 index.md 文件，图片等文件就也放当前文章这个文件夹里面即可。  
+~~B:在 static/images 中加入图片，然后图片 src 写 static/../c.png 即可。~~**
+
+---
+
+## 测试结果如下：
 
 1.x posts formxxx.png:
 ![xxx](formxxx.png)
