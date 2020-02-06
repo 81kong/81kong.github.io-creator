@@ -151,7 +151,7 @@ alternative &nbsp;//可选的，在图片加载失败时提示alt里的内容；
 </body>
 ```                           
 - 图片加载成功，打开开发者工具，打开console如下：
-![图片加载成功](static/../../../static/images/图片加载成功.png)        
+  ![图片加载成功](/static/images/loadsuccess.png)        
 
 - 图片加载失败后显示文字“一只狗子”如下：
 ![图片加载失败后显示文字一只狗子](static/../../../static/images/失败后显示一只狗子.png)                
